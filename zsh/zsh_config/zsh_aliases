@@ -1,0 +1,4 @@
+#!/bin/bash
+EAS_BASE_PATH="~/eas"
+
+alias eas_backend="cd $EAS_BASE_PATH/eas-backend && source .venv/bin/activate && make runlocal"

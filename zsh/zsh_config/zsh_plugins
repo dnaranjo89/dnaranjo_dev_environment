@@ -1,0 +1,1 @@
+plugins=(git npm z gitfast alias-tips dirhistory history)

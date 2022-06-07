@@ -5,3 +5,9 @@ setup-zsh:
 	@cp -r zsh/zsh_config ~/.zsh_config
 	@cat zsh/extended_config >> ~/.zshrc
 	@echo "IMPORTANT! now you need to run 'source ~/.zshrc'"
+
+setup-git:
+	@echo "Configuring Git..."
+	@cp -r git/.gitconfig* ~/
+
+setup: setup-git setup-zsh

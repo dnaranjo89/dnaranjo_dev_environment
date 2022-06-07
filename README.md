@@ -1,10 +1,20 @@
-## Configure Oh My Zsh
+# Prerequisites
+
+## Oh My Zsh
 
 Install [Oh My Zsh](https://ohmyz.sh/#install)
 
-Then configure it by running the following command
+## Git
+
+Install [Github ClI](https://github.com/cli/cli)
 
 ```
-make setup-zsh
+brew install gh
+```
+
+# Installation
+
+```
+make setup
 source ~/.zshrc
 ```

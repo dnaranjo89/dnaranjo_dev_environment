@@ -1,0 +1,7 @@
+# This is Git's per-user configuration file.
+
+[includeIf "gitdir:~/personal/"]
+  path = ~/.gitconfig-personal
+[includeIf "gitdir:~/workspace/"]
+  path = ~/.gitconfig-work
+

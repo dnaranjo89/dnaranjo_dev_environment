@@ -1,7 +1,0 @@
-
-# My custom settings
-. ~/.zsh_config/zsh_env_vars
-. ~/.zsh_config/zsh_aliases
-. ~/.zsh_config/zsh_plugins
-
-source $ZSH/oh-my-zsh.sh

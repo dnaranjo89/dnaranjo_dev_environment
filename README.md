@@ -10,6 +10,10 @@
 
 
 # Installation
+1. Create directories for work and personal projects
+  ```
+  mkdir ~/workspace ~/personal
+  ```
 1. [Generate an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
 1. Add your new SSH key to [your keys in Github](https://github.com/settings/keys)
 1. Login with Github CLI

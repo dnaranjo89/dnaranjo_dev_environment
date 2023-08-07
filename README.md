@@ -2,6 +2,7 @@
 
 - Install [Iterm2](https://iterm2.com/downloads.html)
 - Install [Oh My Zsh](https://ohmyz.sh/#install)
+- Install ohmyzsh's [alias-tips plugin](https://github.com/djui/alias-tips)
 - Install [Github ClI](https://github.com/cli/cli)
   ```
   brew install gh

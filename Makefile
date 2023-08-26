@@ -8,4 +8,9 @@ setup-git:
 	@echo "Configuring Git..."
 	@cp -r git/.gitconfig* ~/
 
-setup: setup-git setup-zsh
+copy-vscode-snippets:
+	@echo "Copying VSCode snippets..."
+	@cp -r vscode/snippets/* ~/Library/Application\ Support/Code/User/snippets/
+
+setup: setup-git setup-zsh copy-vscode-snippets
+	@echo "Setup complete!"

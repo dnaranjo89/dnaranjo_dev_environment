@@ -26,3 +26,6 @@
     make setup
     source ~/.zshrc
     ```
+
+# Custom settings for iterm2
+Find them [here](./iterm2.md)

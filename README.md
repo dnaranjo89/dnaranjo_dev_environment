@@ -3,6 +3,7 @@
 - Install [Iterm2](https://iterm2.com/downloads.html)
 - Install [Oh My Zsh](https://ohmyz.sh/#install)
 - Install ohmyzsh's [alias-tips plugin](https://github.com/djui/alias-tips)
+- Add [nvm auto use snippet](https://github.com/nvm-sh/nvm?tab=readme-ov-file#zsh) to .zshrc
 
 # Setup SSH key
 1. [Generate an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)

@@ -30,3 +30,8 @@
 
 # Custom settings for iterm2
 Find them [here](./iterm2.md)
+
+# Aliases
+```
+kill -9 $(lsof -t -i:3005)
+```

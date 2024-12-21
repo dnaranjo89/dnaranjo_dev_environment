@@ -1,7 +1,7 @@
 
 setup-zsh:
 	@echo "Configuring ZSH..."
-	@sed -i '' 's/plugins=(.*)/plugins=(npm z gitfast alias-tips dirhistory history)/' ~/.zshrc
+	@sed -i '' 's/plugins=(.*)/plugins=(git npm z gitfast alias-tips dirhistory history)/' ~/.zshrc
 	@echo "IMPORTANT! now you need to run 'source ~/.zshrc'"
 
 setup-git:

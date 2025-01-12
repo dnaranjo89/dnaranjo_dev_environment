@@ -5,3 +5,6 @@
 [includeIf "gitdir:~/workspace/"]
   path = ~/.gitconfig-work
 
+[code]
+ editor = vim
+
